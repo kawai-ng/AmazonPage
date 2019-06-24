@@ -1,0 +1,12 @@
+create table amazon
+(
+id varchar(5) primary key,
+country varchar(30),
+name varchar(50),
+street1 varchar(50),
+street2 varchar(50),
+city varchar(20),
+state varchar(20),
+zipcode varchar(5),
+phone varchar(10)
+);
