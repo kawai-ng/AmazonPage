@@ -15,7 +15,7 @@ import com.lec.spring_dto.BDto;
 public class BDao {
 
 	DataSource dataSource;
-	public BDao() {
+	public BDao(){
 		try {
 			Context context = new InitialContext();
 			dataSource = (DataSource) context.lookup("java:comp/env/jdbc/DatabaseTheory");

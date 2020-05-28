@@ -1,0 +1,33 @@
+body {
+    background-color: #f2f2f2;
+    text-align: left;
+    margin-left: 10%;
+}
+h1 {
+    color: #ffaa00;
+}
+td {
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    font-size: 1rem;
+    font-family: Optima serif;
+}
+input[type=text] {
+    padding: 0.2rem 0.5rem;
+    width: 15rem;
+    height: 1.2rem;
+    border-radius: 10px;
+    font-family: Optima serif;
+    font-size: 1rem;
+}
+input[type=submit] {
+    padding: 0.3rem 0.6rem;
+    background-color: yellow;
+    border-radius: 10px;
+    font-family: Optima serif;
+    font-size: 1rem;
+}
+input[type=submit]:hover {
+    background-color: greenyellow;
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+body {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+h1 {
+    color: #ffaa00;
+}
+form {
+    width: 20%;
+    display: inline-block;
+}
+div.titleWrapper {
+    margin-left: 10%;
+}
+div.buttonWrapper {
+    text-align: center;
+}
+button.addressButton {
+    background-color: yellow;
+    text-align: center;
+    margin: 0.5rem;
+    padding: 1rem 1rem 0 1rem;
+    border-style: dotted;
+    border-color: burlywood;
+    border-radius: 2px;
+    font-family: Optima serif;
+    font-size: 1.2rem;
+}
+button.addressButton:hover {
+    background-color: greenyellow;
+    cursor: pointer;
+}
+img {
+    width: 20%;
+    height: 20%;
+}
